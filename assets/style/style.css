@@ -1,0 +1,159 @@
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.navbar{
+    background-color: #25c3f8;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.btn-group-vertical>.btn, .btn-group>.btn {
+    flex: none;
+}
+
+.gambar{
+    width: 80%;
+}
+
+.container-isi {
+    display: grid;
+    justify-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    grid-gap : 10px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.container-sim {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    grid-gap : 10px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.container-point {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    grid-gap : 10px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.box-2 {
+    margin: 120px 0;
+}
+
+.judul {
+    color: #333333;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 80px 0 20px 0;
+}
+
+.isi-artikel {
+    color: #333333;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-decoration: none;
+    cursor:default;
+    padding: 20px 10px;
+}
+
+.isi-artikel:hover {
+    color: #333333;
+}
+
+.sub-judul {
+    padding: 20px 30px 0 30px;
+    color: #333333;
+    font-size: 16px;
+}
+
+.isi-sub-judul {
+    color: #333333;
+    font-size: 12px;
+    padding: 0 30px;
+    text-align: justify;
+}
+
+.border {
+    margin: 20px;
+    box-shadow: 2px 2px 10px #888888;
+}
+
+.gambar-artikel{
+    width: 80%;
+    margin: 0 10%;
+    padding-bottom: 10%;
+}
+
+.box-2 .judul-1 {
+    letter-spacing: 7.7px;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.box-2 .judul-2 {
+    padding: 0;
+    margin: 0;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.box-2 .isi {
+    color: #333333;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.judul-artikel h1 {
+    color: #333333;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 80px 0 30px 0;
+}
+
+.judul-artikel p {
+    color: #333333;
+    font-size: 24px;
+    margin-right: 20% ;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.container-grid {
+    display: grid;
+    justify-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    grid-gap : 10px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    
+
+}
